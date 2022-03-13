@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Car from './App';
+// import Car from './App'; 
+import Callback from './Callback';
 
 // React component
 // Html
 // React element
 
 ReactDOM.render(
-  <Car text="Ritik" value='100' favColor='violet'/>,
+  <Callback />,
   document.getElementById('root')
 );
