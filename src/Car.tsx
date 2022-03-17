@@ -69,9 +69,9 @@ function Car() {
     useEffect(() => {
         console.log('resource changed');
 
-        return () => {
-            console.log("Resource unmounted");
-        }
+        // return () => {
+        //     console.log("Resource unmounted");
+        // }
     }, [resourceType]);
 
     return (
