@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-// import Car from './App'; 
-import Reducer from './Reducer';
+import Custom from './Custom';
+import './Styles.scss';
 
 // React component
 // Html
 // React element
 
 ReactDOM.render(
-  <Reducer />,
+  <Custom />,
   document.getElementById('root')
 );
