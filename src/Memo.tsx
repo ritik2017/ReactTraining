@@ -32,7 +32,7 @@ function Memo() {
     const [number, setNumber] = React.useState(0);
     const [dark, setDark] = React.useState(false);
 
-    const doubleNumber = React.useMemo(() => fun(number), [number]);
+    const doubleNumber = React.useMemo(() => {return fun(number)}, [number]);
 
     const themeStyle = React.useMemo(() => {    
         return {
