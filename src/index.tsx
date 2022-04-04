@@ -1,20 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './Styles.scss';
-import Redux from './Redux'
-
-import { createStore } from 'redux';
-import { Provider } from 'react-redux'; 
-
-import allReducers from './redux/CombineReducers';
-
-const store = createStore(
-  allReducers
-)
+import ButtonText from './ButtonText'
 
 ReactDOM.render(
-  <Provider store={store}>
-    <Redux/>
-  </Provider>,
+  <ButtonText/>,
   document.getElementById('root')
 );

@@ -10,7 +10,7 @@ export default function Checkbox() {
                 <label htmlFor='check'>
                     {checked ? "Checked" : "Not Checked"}
                 </label>
-                <input data-testId='check123' id='check' type='checkbox' value={checked} onChange={toggle}></input>
+                <input data-testid='check123' id='check' type='checkbox' value={checked} onChange={toggle}></input>
             </form>
             
         </>
